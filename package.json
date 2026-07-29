@@ -27,12 +27,12 @@
   "homepage": "https://github.com/Medieinstitutet/fed25d-js-intro-grupparbete-the-natural-stunner-squad#readme",
   "devDependencies": {
     "@eslint/js": "^9.39.2",
-    "eslint": "^9.39.2",
+    "eslint": "^10.8.0",
     "eslint-config-prettier": "^10.1.8",
     "globals": "^17.3.0",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.55.0",
+    "typescript-eslint": "^8.65.0",
     "vite": "^7.3.1"
   }
 }
