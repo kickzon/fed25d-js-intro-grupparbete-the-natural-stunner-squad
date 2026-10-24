@@ -15,7 +15,7 @@ let gameStarted = false;
 /*****************BG MUSIC*******************/
 /********************************************/
 
-const bgMusic = new Audio(import.meta.env.BASE_URL + "src/sounds/background-music-startpage.mp3");
+const bgMusic = new Audio(import.meta.env.BASE_URL + "sounds/background-music-startpage.mp3");
 bgMusic.loop = true;
 bgMusic.volume = 0.2;
 

@@ -10,8 +10,8 @@ const showRequirementsBtn = document.querySelector(
 const requirementsList = document.getElementById("requirements-list") as HTMLUListElement;
 const messageElement = document.getElementById("room4-message") as HTMLParagraphElement;
 const timerElement = document.getElementById("room4-timer") as HTMLDivElement;
-const errorSound = new Audio(import.meta.env.BASE_URL + "src/sounds/error.mp3");
-const resultSound = new Audio(import.meta.env.BASE_URL + "src/sounds/resultsound.mp3");
+const errorSound = new Audio(import.meta.env.BASE_URL + "sounds/error.mp3");
+const resultSound = new Audio(import.meta.env.BASE_URL + "sounds/resultsound.mp3");
 
 // Skickar event till main.ts att room4 är klart. för localstorage och att visa resultsidan /maria
 function notifyRoom4Completed(): void {
